@@ -15,7 +15,7 @@ body::before {
   height: 100%;
   background-image: url('/4c58fde3-2d53-48f4-8bf9-1c305007a202.png');
   background-size: cover;
-  background-position: center -200px; /* или 'center top 20px' */
+  background-position: center ; /* или 'center top 20px' */
 
   background-repeat: no-repeat;
   z-index: 0;
