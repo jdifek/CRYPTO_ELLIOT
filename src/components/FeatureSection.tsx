@@ -14,7 +14,7 @@ const FeatureSection: React.FC<FeatureSectionProps> = ({ content }) => {
   ];
 
   return (
-    <div className="bg-[#0a0a0a] py-20 px-4">
+    <div className="bg-[#0a0a0a]  py-20 px-4">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-center text-3xl md:text-4xl font-bold font-mono text-white mb-16 tracking-widest">
           {content.featuresTitle}

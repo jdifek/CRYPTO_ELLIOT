@@ -10,7 +10,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ content }) => {
   return (
     <div className="relative h-screen w-full overflow-hidden flex flex-col items-center justify-center text-center px-4">
       {/* Background overlay with crypto symbols */}
-      <div className="absolute inset-0 bg-[#0a0a0a] opacity-90 z-0"></div>
+      <div className="absolute inset-0 bg-[#0a0a0a] opacity-30 z-0"></div>
       
       {/* Animated background patterns */}
       <div className="absolute inset-0 opacity-10 z-0">
