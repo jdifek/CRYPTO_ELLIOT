@@ -59,7 +59,12 @@ const HeroSection: React.FC<HeroSectionProps> = ({ content }) => {
         </div>
 
         <button className="group relative px-8 py-4 overflow-hidden bg-black border-2 border-green-500 text-green-500 rounded-md font-mono text-lg md:text-xl tracking-widest transition-all duration-300 hover:bg-green-500 hover:text-black transform hover:scale-105">
-          <span className="relative z-10">{content.ctaButton}</span>
+            <a
+            href="/"
+            className="relative z-10"
+            >
+            {content.ctaButton}
+            </a>
           <span className="absolute inset-0 bg-green-500 translate-y-full group-hover:translate-y-0 transition-transform duration-300"></span>
         </button>
       </div>
